@@ -1,0 +1,8 @@
+# Testing files
+*html
+
+# Executable
+lexer
+
+# C files
+*.c
