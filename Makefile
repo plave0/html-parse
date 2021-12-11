@@ -1,5 +1,5 @@
 lexer: lex.yy.c
-	gcc lex.yy.c -o lexer
+	gcc -Wall lex.yy.c -o lexer
 lex.yy.c: lexer.l
 	flex lexer.l
 
